@@ -1,0 +1,642 @@
+@media (max-width: 389px) {
+    header .conteiner {
+        height: 70px;
+    }
+    
+    header .informacoes h2 {
+        font-size: 40px;
+        margin-top: 90px;
+    }
+
+    header .informacoes p {
+        font-size: 20px;
+    }
+
+    header .informacoes button {
+        font-size: 20px;
+    }
+
+    header .conteiner .select label {
+        width: 45px;
+    }
+
+    .hamburger svg {
+        height: 2.8em;
+    }
+
+    .habilidades .conteiner {
+        gap: 30px;
+        width: 80%;
+    }
+
+    .menuOff {
+        top: 69px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    header .conteiner {
+        height: 100px;
+    }
+    
+    header .conteiner .select label {
+        width: 55px;
+        height: 23px;
+    }
+    
+    header .conteiner .select label .box {
+        top: 4px;
+        left: 3px;
+    }
+
+    #modoActive {
+        left: 35px;
+    }
+
+    header .conteiner h2 {
+        font-size: 50px;
+    }
+
+    header .informacoes h2 {
+        font-size: 60px;
+        max-width: 90%;
+        text-align: center;
+        margin: 130px auto;
+        margin-bottom: 0;
+    }
+
+    header .informacoes p {
+        font-size: 35px;
+        max-width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    header .informacoes button {
+        font-size: 33px;
+    }
+
+    .sobreMim .caixa .biografia h2 {
+        font-size: 38px;
+        margin: 25px;
+    }
+
+    .sobreMim .caixa img {
+        height: 400px;
+    }
+
+    .sobreMim .caixa .biografia p {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    .sobreMim .caixa .contatos .cont {
+        width: 68px;
+        height: 68px;
+    }
+
+    .sobreMim .caixa .contatos .cont i {
+        font-size: 28px;
+    }
+
+    .habilidades .conteiner {
+        gap: 50px;
+        width: 50%;
+        place-items: center;
+    }
+
+    .habilidades h2 {
+        font-size: 45px;
+    }
+
+    .habilidades .conteiner .cont_hab p {
+        font-size: 23px;
+    }
+
+    .habilidades .conteiner .cont_hab img {
+        width: 55px;
+        height: 55px;   
+    }
+
+    .projetos .titulo {
+        font-size: 45px;
+    }
+
+    .projetos .conteinerOn {
+        width: 65%;
+    }
+
+    .projetos .conteinerOn h2 {
+        font-size: 35px;
+    }
+
+    .projetos .conteinerOn p {
+        font-size: 26px;
+    }
+
+    .projetos .conteinerOn img {
+        width: 40px;
+    }
+
+    .projetos .conteinerOn button {
+        font-size: 27px;
+    }
+
+    .menuOff {
+        width: 80%;
+    }
+
+    .menuOff .infos a {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+    header .conteiner {
+        height: 100px;
+    }
+    
+    header .conteiner .select label {
+        width: 61px;
+        height: 27px;
+    }
+    
+    header .conteiner .select label .box {
+        top: 4px;
+        left: 4px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #modoActive {
+        left: 34px;
+    }
+
+    header .conteiner h2 {
+        font-size: 53px;
+    }
+
+    header .informacoes h2 {
+        font-size: 63px;
+        max-width: 85%;
+        text-align: center;
+        margin: 130px auto;
+        margin-bottom: 0;
+    }
+
+    header .informacoes p {
+        font-size: 37px;
+        max-width: 85%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    header .informacoes button {
+        font-size: 35px;
+    }
+
+    .hamburger svg {
+        height: 4em;
+    }
+
+    .sobreMim .caixa {
+        width: 88%;
+    }
+
+    .sobreMim .caixa .biografia h2 {
+        font-size: 42px;
+        margin: 25px;
+    }
+
+    .sobreMim .caixa .biografia p {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .sobreMim .caixa img {
+        height: 400px;
+    }
+
+    .sobreMim .caixa .contatos .cont {
+        width: 75px;
+        height: 75px;
+    }
+
+    .sobreMim .caixa .contatos .cont i {
+        font-size: 30px;
+    }
+
+    .habilidades .conteiner {
+        width: 85%;
+        grid-template-columns: repeat(3,1fr);
+        padding: 10px 0;
+    }
+
+    .habilidades .conteiner .cont_hab {
+        background-color: var(--corFundo);
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 7px;
+    }
+
+    .habilidades .conteiner .cont_hab img {
+        width: 63px;
+        height: 63px;   
+    }
+
+    .habilidades .conteiner .cont_hab p {
+        font-size: 28px;
+    }
+
+    .habilidades h2 {
+        font-size: 55px;
+    }
+
+    .projetos .titulo {
+        font-size: 55px;
+    }
+
+    .projetos .conteinerOn {
+        width: 68%;
+        padding: 10px 7px;
+    }
+
+    .projetos .conteinerOn h2 {
+        font-size: 38px;
+    }
+
+    .projetos .conteinerOn p {
+        font-size: 29px;
+    }
+
+    .projetos .conteinerOn img {
+        width: 41px;
+    }
+
+    .projetos .conteinerOn button {
+        font-size: 30px;
+    }
+
+    .contato h2 {
+        font-size: 55px;
+    }
+
+    .contato .caixas div {
+        width: 80px;
+        height: 80px;
+        margin: 12px auto;
+    }
+
+    .contato .caixas div i {
+        font-size: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato .caixas p {
+        font-size: 29px;
+    }
+
+    .menuOff {
+        width: 80%;
+    }
+
+    .menuOff .infos a {
+        font-size: 33px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    header .conteiner {
+        height: 100px;
+    }
+
+    header .conteiner h2 {
+        font-size: 55px;
+    }
+
+    header .caixa1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header .caixa1 img {
+        width: 500px;
+        height: 500px;
+        margin-top: 150px;
+        display: block;
+    }
+
+    header .conteiner .select label {
+        width: 61px;
+        height: 27px;
+    }
+
+    header .conteiner .select label .box {
+        top: 3.5px;
+        left: 4px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #modoActive {
+        left: 36px;
+    }
+
+    .hamburger svg {
+        height: 4em;
+    }
+
+    header .informacoes {
+        width: 55%;
+    }
+
+    header .informacoes h2 {
+        font-size: 68px;
+        margin: 130px 0;
+        margin-bottom: 0;
+    }
+
+    header .informacoes p {
+        font-size: 37px;
+        
+        margin: 30px 0;
+        
+    }
+
+    header .informacoes button {
+        font-size: 40px;
+    }
+
+    .sobreMim .caixa {
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        padding: 20px 0;
+    }
+
+    .sobreMim .caixa .biografia h2 {
+        font-size: 42px;
+        margin: 25px;
+    }
+
+    .sobreMim .caixa img {
+        height: 465px;
+        width: 400px;
+        place-items: center;
+        margin: auto 40px;
+    }
+
+    .sobreMim .caixa .biografia p {
+        font-size: 28px;
+        margin-bottom: 70px;
+        max-width: 550px;
+    }
+
+    .sobreMim .caixa .contatos .cont {
+        width: 75px;
+        height: 75px;
+    }
+
+    .sobreMim .caixa .contatos .cont i {
+        font-size: 30px;
+    }
+
+    .habilidades .conteiner {
+        grid-template-columns: repeat(3,1fr);
+        width: 80%;
+    }
+
+    .habilidades h2 {
+        font-size: 60px;
+    }
+
+    .projetos .titulo {
+        font-size: 55px;
+    }
+
+    .projetos .conteinerOn {
+        width: 47%;
+        padding: 10px 7px;
+    }
+
+    .projetos .conteinerOn h2 {
+        font-size: 38px;
+    }
+
+    .projetos .conteinerOn p {
+        font-size: 29px;
+    }
+
+    .projetos .conteinerOn img {
+        width: 41px;
+    }
+
+    .projetos .conteinerOn button {
+        font-size: 30px;
+    }
+
+    .contato h2 {
+        font-size: 55px;
+    }
+
+    .contato .caixas div {
+        width: 80px;
+        height: 80px;
+        margin: 12px auto;
+    }
+
+    .contato .caixas div i {
+        font-size: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato .caixas p {
+        font-size: 29px;
+    }
+
+    .menuOff {
+        width: 80%;
+    }
+
+    .menuOff .infos a {
+        font-size: 33px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1301px) {
+    header .conteiner {
+        height: 100px;
+    }
+
+    header .conteiner h2 {
+        font-size: 55px;
+    }
+
+    header .conteiner .select label {
+        width: 61px;
+        height: 27px;
+    }
+
+    header .conteiner .select label .box {
+        top: 3.5px;
+        left: 4px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #modoActive {
+        left: 36px;
+    }
+
+    .hamburger svg {
+        height: 4em;
+    }
+
+    header .informacoes h2 {
+        font-size: 68px;
+        max-width: 70%;
+        text-align: center;
+        margin: 130px auto;
+        margin-bottom: 0;
+    }
+
+    header .caixa1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header .caixa1 img {
+        width: 500px;
+        height: 500px;
+        margin-top: 150px;
+        display: block;
+        margin-right: 50px;
+    }
+
+    header .informacoes p {
+        font-size: 37px;
+        max-width: 80%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    header .informacoes button {
+        font-size: 40px;
+    }
+
+    .sobreMim .caixa {
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        padding: 20px 0;
+    }
+
+    .sobreMim .caixa img {
+        height: 465px;
+        width: 400px;
+        place-items: center;
+        margin: auto 40px;
+    }
+
+
+    .sobreMim .caixa .biografia h2 {
+        font-size: 42px;
+        margin: 25px;
+    }
+
+    .sobreMim .caixa img {
+        width: 85%;
+        height: 450px;
+    }
+
+    .sobreMim .caixa .biografia p {
+        font-size: 28px;
+        margin-bottom: 40px;
+        margin-bottom: 70px;
+    }
+
+    .sobreMim .caixa .contatos .cont {
+        width: 75px;
+        height: 75px;
+    }
+
+    .sobreMim .caixa .contatos .cont i {
+        font-size: 30px;
+    }
+
+    .habilidades .conteiner {
+        grid-template-columns: repeat(3,1fr);
+        width: 80%;
+    }
+
+    .habilidades h2 {
+        font-size: 60px;
+    }
+    .projetos .titulo {
+        font-size: 55px;
+    }
+
+    .projetos .conteinerOn {
+        width: 40%;
+        padding: 10px 7px;
+    }
+
+    .projetos .conteinerOn h2 {
+        font-size: 38px;
+    }
+
+    .projetos .conteinerOn p {
+        font-size: 29px;
+    }
+
+    .projetos .conteinerOn img {
+        width: 41px;
+    }
+
+    .projetos .conteinerOn button {
+        font-size: 30px;
+    }
+
+    .contato h2 {
+        font-size: 55px;
+    }
+
+    .contato .caixas div {
+        width: 80px;
+        height: 80px;
+        margin: 12px auto;
+    }
+
+    .contato .caixas div i {
+        font-size: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato .caixas p {
+        font-size: 29px;
+    }
+    
+    .menuOff {
+        width: 80%;
+    }
+
+    .menuOff .infos a {
+        font-size: 33px;
+        margin-top: 10px;
+    }
+}

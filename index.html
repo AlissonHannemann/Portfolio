@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="menu" id="menu">
+                <label class="hamburger">
+                    <input type="checkbox" id="menuToggle">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </div> <!-- fim menu -->
+            <h2>Portfólio</h2>
+            <div class="select">
+                <input type="checkbox" id="active">
+                <label for="checkbox" id="input">
+                    <div class="box"></div>
+                </label>
+            </div> <!-- fim select -->
+        </div>  <!-- fim conteiner -->
+
+        <div class="caixa1">
+            <div class="informacoes">
+                <div class="animacao" data-aos="fade-right" data-aos-duration="1300">
+                    <h2>Criando sites <span>modernos</span> e de <span>alta qualidade</span></h2>
+                    <p>Unimos design inovador e desenvolvimento frontend de ponta, criando soluções
+                    para destacar sua marca no mercado.</p>
+                </div> <!-- fim animação -->
+                <button id="Contatar">Entrar em contato</button>
+            </div> <!-- fim informacoes -->
+            <img src="imagens/8453b4169367c52929e3c9ce1a900b4e-removebg-preview.png" alt="">
+        </div> <!-- fim caixa1 -->
+    </header> <!-- fim header -->
+
+    <div class="linha"> </div>
+
+    <div class="sobreMim" data-aos="fade-right" data-aos-duration="1300">
+        <div class="caixa">
+            <img src="imagens/teste.jpg" alt="">
+            <div class="conteiner">
+                <div class="biografia">
+                    <h2>Sobre mim</h2>
+                    <p>Meu nome é Alisson, tenho 19 anos e atualmente sou freelancer como Front-End Developer.
+                    Desenvolvo interfaces modernas, intuitivas e responsivas, visando melhorar a conexão com os usuários.</p>
+                    
+                    <div class="contatos">
+                        <div class="cont" id="instagram">
+                            <i class="bi bi-instagram"></i>
+                        </div> <!-- fim cont -->
+                        
+                        <div class="cont">
+                            <i class="bi bi-linkedin" id="linkedin"></i>
+                        </div> <!-- fim cont -->
+                        
+                        <div class="cont">
+                            <i class="bi bi-github" id="github"></i>
+                        </div> <!-- fim cont -->
+                    </div> <!-- fim contatos -->
+                </div> <!-- fim biografia -->
+                
+            </div> <!-- fim conteiner -->
+        </div> <!-- fim caixa -->
+    </div> <!-- fim sobreMim -->
+
+    <div class="habilidades">
+        <h2>Habilidades</h2>
+        <div class="conteiner">
+            <div class="cont_hab">
+                <p>HTML</p>
+                <img src="imagens/html-5.png" alt="" id="html">
+            </div> <!-- fim cont_hab -->
+
+            <div class="cont_hab">
+                <p>CSS</p>
+                <img src="imagens/css3-plain-icon-1803x2048-o5nd73vf.png" alt="" id="css">
+            </div> <!-- fim cont_hab -->
+
+            <div class="cont_hab">
+                <P>JavaScript</P>
+                <img src="imagens/javascript.png" alt="" id="js">
+            </div> <!-- fim cont_hab -->
+
+            <div class="cont_hab">
+                <p>PHP</p>
+                <img src="imagens/icons8-php-250.png" alt="" id="php">
+            </div> <!-- fim cont_hab -->
+
+            <div class="cont_hab">
+                <p>Java</p>
+                <img src="imagens/5968282.png" alt="" id="java">
+            </div> <!-- fim cont_hab -->
+
+            <div class="cont_hab">
+                <p>Figma</p>
+                <img src="imagens/5968704.png" alt="" id="figma">
+            </div> <!-- fim cont_hab -->
+        </div> <!-- fim conteiner -->
+    </div> <!-- fim habilidades -->
+
+    <div class="projetos">
+        <h2 class="titulo">Projetos</h2>
+        <div class="conteinerOn" data-aos="fade-right" data-aos-duration="1300">
+            <h2>Florescence</h2>
+            <p>Landing Page para uma loja de velas aromáticas.</p>
+            <div class="tec">
+                <img src="imagens/html-5.png" alt="">
+                <img src="imagens/css3-plain-icon-1803x2048-o5nd73vf.png" alt="">
+                <img src="imagens/javascript.png" alt="">
+                <img src="imagens/5968704.png" alt="">
+            </div> <!-- fim tec -->
+            <button id="acessarFlorescence"></a>Acessar Projeto</button>
+        </div> <!-- fim conteinerOn -->
+    </div> <!-- fim projetos -->
+
+    <div class="contato">
+        <h2>Contatos</h2>
+        <div class="caixas">
+            <div id="email"><i class="bi bi-envelope"></i></div>
+            <p>E-mail</p>
+            <p class="info">alissonhannemann7@gmail.com</p>
+        </div> <!-- fim caixas -->
+
+        <div class="caixas">
+            <div id="telefone"><i class="bi bi-telephone"></i></div>
+            <p>Telefone</p>
+            <p class="info">(51) 99721-2484</p>
+        </div> <!-- fim caixas -->
+
+        <div class="caixas">
+            <div id="github2"><i class="bi bi-github"></i></div>
+            <p>GitHub</p>
+            <p class="info">@alissondev</p>
+        </div> <!-- fim caixas -->
+
+        <div class="caixas">
+            <div><i class="bi bi-linkedin"></i></div>
+            <p>Linkedin</p>
+            <p class="info">@alissondev</p>
+        </div> <!-- fim caixas -->
+    </div> <!-- fim contato -->
+
+    <div class="menuOff">
+        <div class="infos">
+            <a id="inicio">Início</a>
+            <a id="sobreMim">Sobre mim</a>
+            <a id="habilidades">Habilidades</a>
+            <a id="projetos">Projetos</a>
+            <a id="contatos">Contatos</a>
+        </div> <!-- fim menuOff -->
+    </div> <!-- fim infos -->
+
+    <div class="fundo"> </div>
+
+    <!-- scripts -->
+    <script src="assets/scripts/menu.js"></script>
+    <script src="assets/scripts/buttonMode.js"></script>
+    <script src="assets/scripts/direcionamentos.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização do AOS -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
