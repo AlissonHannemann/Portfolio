@@ -6,6 +6,7 @@ const github2 = document.getElementById('github2');
 const email = document.getElementById('email');
 const telefone = document.getElementById('telefone');
 const florescence = document.getElementById('acessarFlorescence');
+const cookiesDev = document.getElementById('acessarCookiesDev');
 
 
 contatar.addEventListener('click', () => {
@@ -34,6 +35,10 @@ telefone.addEventListener('click', () => {
 
 florescence.addEventListener('click', () => {
     window.location.href = 'https://alissonhannemann.github.io/Site-Florescence/';
+})
+
+cookiesDev.addEventListener('click', () => {
+    window.location.href = 'https://cookiesdev.netlify.app/';
 })
 
 
