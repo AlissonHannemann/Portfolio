@@ -12,12 +12,12 @@ const habilidadesh2 = document.querySelector('.habilidades h2');
 const cont_hab = document.querySelectorAll('.cont_hab');
 const html = document.getElementById('html');
 const hab_p = document.querySelectorAll('.cont_hab p');
-const projetos = document.querySelector('.projetos .conteinerOn');
-const projetosTitulo = document.querySelector('.conteinerOn h2');
-const projetosP = document.querySelector('.conteinerOn p');
+const projetos = document.querySelectorAll('.projetos .conteinerOn');
+const projetosTitulo = document.querySelectorAll('.conteinerOn h2');
+const projetosP = document.querySelectorAll('.conteinerOn p');
 const contato = document.querySelector('.contato');
 const contatoP = document.querySelectorAll('.caixas p');
-
+const imagemHeader = document.getElementById('imagemHeader');
 
 input.addEventListener('click', () => {
     if(box.id) {
@@ -35,9 +35,15 @@ input.addEventListener('click', () => {
         cont_hab.forEach((el) => {
             el.removeAttribute('id', 'cont_habLight');
         })
-        projetos.removeAttribute('id', 'projetosLight');
-        projetosTitulo.removeAttribute('id', 'projetoTituloLight');
-        projetosP.removeAttribute('id', 'projetosP');
+        projetos.forEach((el) => {
+            el.removeAttribute('id', 'projetosLight');
+        })
+        projetosTitulo.forEach((el) => {
+            el.removeAttribute('id', 'projetoTituloLight');
+        })
+        projetosP.forEach((el) => {
+            el.removeAttribute('id', 'projetosP');
+        })
         contato.removeAttribute('id', 'contatoLight');
         hab_p.forEach((el) => {
             el.removeAttribute('id', 'hab_pLight');
@@ -45,7 +51,7 @@ input.addEventListener('click', () => {
         contatoP.forEach((el) => {
             el.removeAttribute('id', 'contatoP');
         })
-
+        imagemHeader.src = 'imagens/8453b4169367c52929e3c9ce1a900b4e-removebg-preview.png';
 
     } else {
         box.setAttribute('id', 'modoActive');
@@ -62,9 +68,15 @@ input.addEventListener('click', () => {
         cont_hab.forEach((el) => {
             el.setAttribute('id', 'cont_habLight');
         })
-        projetos.setAttribute('id', 'projetosLight');
-        projetosTitulo.setAttribute('id', 'projetoTituloLight');
-        projetosP.setAttribute('id', 'projetosP');
+        projetos.forEach((el) => {
+            el.setAttribute('id', 'projetosLight');
+        })
+        projetosTitulo.forEach((el) => {
+            el.setAttribute('id', 'projetoTituloLight');
+        })
+        projetosP.forEach((el) => {
+            el.setAttribute('id', 'projetosP');
+        })
         contato.setAttribute('id', 'contatoLight');
         contatoP.forEach((el) => {
             el.setAttribute('id', 'contatoP');
@@ -73,7 +85,6 @@ input.addEventListener('click', () => {
         hab_p.forEach((el) => {
             el.setAttribute('id', 'hab_pLight');
         })
-
-
+        imagemHeader.src = 'imagens/29eb211d08b93b8833002b448107f4b0-removebg-preview.png';
     }
 })
