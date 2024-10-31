@@ -7,6 +7,7 @@ const email = document.getElementById('email');
 const telefone = document.getElementById('telefone');
 const florescence = document.getElementById('acessarFlorescence');
 const cookiesDev = document.getElementById('acessarCookiesDev');
+const linkedin2 = document.getElementById('linkedin2');
 
 
 contatar.addEventListener('click', () => {
@@ -26,7 +27,7 @@ github2.addEventListener('click', () => {
 })
 
 email.addEventListener('click', () => {
-    window.location.href = 'mailto:alissonhannemann7@gmail.com';
+    window.location.href = 'mailto:alissondeveloperr@gmail.com';
 })
 
 telefone.addEventListener('click', () => {
@@ -34,11 +35,19 @@ telefone.addEventListener('click', () => {
 })
 
 florescence.addEventListener('click', () => {
-    window.location.href = 'https://alissonhannemann.github.io/Site-Florescence/';
+    window.location.href = 'https://floresence.netlify.app';
 })
 
 cookiesDev.addEventListener('click', () => {
     window.location.href = 'https://cookiesdev.netlify.app/';
+})
+
+linkedin.addEventListener('click', () => {
+    window.location.href = 'https://www.linkedin.com/in/alissonhannemann/';
+})
+
+linkedin2.addEventListener('click', () => {
+    window.location.href = 'https://www.linkedin.com/in/alissonhannemann/';
 })
 
 
