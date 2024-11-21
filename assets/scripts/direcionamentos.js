@@ -34,12 +34,8 @@ telefone.addEventListener('click', () => {
     window.location.href = 'https://wa.me/5551997212484';
 })
 
-florescence.addEventListener('click', () => {
-    window.location.href = 'https://floresence.netlify.app';
-})
-
 cookiesDev.addEventListener('click', () => {
-    window.location.href = 'https://cookiesdev.netlify.app/';
+    window.location.href = 'https://cookiesdev.netlify.app';
 })
 
 linkedin.addEventListener('click', () => {
