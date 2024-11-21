@@ -34,9 +34,7 @@ telefone.addEventListener('click', () => {
     window.location.href = 'https://wa.me/5551997212484';
 })
 
-cookiesDev.addEventListener('click', () => {
-    window.location.href = 'https://cookiesdev.netlify.app';
-})
+
 
 linkedin.addEventListener('click', () => {
     window.location.href = 'https://www.linkedin.com/in/alissonhannemann/';
